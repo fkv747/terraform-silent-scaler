@@ -172,9 +172,8 @@ Building Silent Scaler was not without obstacles. Here are some real-world issue
 
 ## Future Improvements
 
-- Add **API Gateway** endpoint for direct upload from external users.
-- Enhance quarantine logic to auto-tag bad files.
-- Implement retry mechanisms for failed SNS publishing.
+- Add a simple frontend powered by API Gateway and AWS Amplify to allow users to upload files through a web page.
+
 
 ---
 
