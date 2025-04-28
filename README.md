@@ -1,12 +1,12 @@
 # Silent Scaler — Serverless Data Pipeline
 
-![Terraform](https://img.shields.io/badge/IAC-Terraform-purple)
-![AWS](https://img.shields.io/badge/Cloud-AWS-blue)
-![S3](https://img.shields.io/badge/AWS-S3-green)
-![Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
-![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-blue)
-![SNS](https://img.shields.io/badge/AWS-SNS-pink)
-![Serverless](https://img.shields.io/badge/Architecture-Serverless-yellow)
+![IAC](https://img.shields.io/badge/IAC-Terraform-purple)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-blue)
+![AWS S3](https://img.shields.io/badge/AWS-S3-green)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
+![AWS DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-blue)
+![AWS SNS](https://img.shields.io/badge/AWS-SNS-pink)
+![Serverless Architecture](https://img.shields.io/badge/Architecture-Serverless-yellow)
 
 Silent Scaler is a fully serverless, infrastructure-as-code data pipeline built entirely with AWS and Terraform. This project automates file validation, storage, quarantine of invalid files, and real-time error notifications via SNS, demonstrating modular design, scalability, and operational resilience.
 
