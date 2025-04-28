@@ -126,21 +126,22 @@ terraform apply
 
 ## Testing & Validation
 
-**Lambda Test - Good File (CSV)**
+**Lambda Test – Good File (CSV)**
 
 ![Lambda Test Good File](screenshots/lambda-test-good-file.png)
 
-**Lambda Test - Bad File (Non-CSV)**
-
-![Lambda Test Bad File](screenshots/lambda-test-bad-file.png)
-
-**CloudWatch Logs - Good File Processing**
+**CloudWatch Logs – Good File Processing**
 
 ![CloudWatch Good File](screenshots/cloudwatch-log-good-file.png)
 
-**CloudWatch Logs - Bad File Processing**
+**Lambda Test – Bad File (Non-CSV)**
+
+![Lambda Test Bad File](screenshots/lambda-test-bad-file.png)
+
+**CloudWatch Logs – Bad File Processing**
 
 ![CloudWatch Bad File](screenshots/cloudwatch-log-bad-file.png)
+
 
 ---
 
