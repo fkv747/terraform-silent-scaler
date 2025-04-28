@@ -1,7 +1,7 @@
 # Silent Scaler — Serverless Data Pipeline
 
-![IAC](https://img.shields.io/badge/IAC-Terraform-purple)
-![Cloud](https://img.shields.io/badge/Cloud-AWS-blue)
+![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=for-the-badge&logo=terraform)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-232F3E?style=for-the-badge&logo=amazonaws)
 ![AWS S3](https://img.shields.io/badge/AWS-S3-green)
 ![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
 ![AWS DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-blue)
