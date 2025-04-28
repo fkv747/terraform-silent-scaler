@@ -3,7 +3,7 @@
 ![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=for-the-badge&logo=terraform)
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-232F3E?style=for-the-badge&logo=amazonaws)
 ![AWS S3](https://img.shields.io/badge/AWS-S3-green)
-![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-Serverless-F58536?style=for-the-badge&logo=awslambda)
 ![AWS DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-blue)
 ![AWS SNS](https://img.shields.io/badge/AWS-SNS-pink)
 ![Serverless Architecture](https://img.shields.io/badge/Architecture-Serverless-yellow)
@@ -30,10 +30,9 @@ This diagram summarizes the AWS serverless architecture of Silent Scaler:
 ![Silent Scaler Architecture](screenshots/silent-scaler-main.png)
 
 - Files uploaded to **S3 Main Bucket**.
-- **Lambda Function** validates files.
-  - Good files -> Metadata saved to **DynamoDB**.
-  - Bad files -> Moved to **Quarantine Bucket**.
-  - Errors trigger **SNS Notifications**.
+- **Lambda Function** validates files:
+  - **Good files** → Metadata saved to **DynamoDB** and **SNS email notification sent**.
+  - **Bad files** → Moved to **Quarantine Bucket** and **SNS email notification sent**.
 - **CloudWatch Logs** for monitoring Lambda behavior.
 
 ---
