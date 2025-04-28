@@ -16,7 +16,7 @@ Silent Scaler is a fully serverless, infrastructure-as-code data pipeline built 
 ## Demo
 
 🎥 **Watch the full demo on YouTube**  
-_(Placeholder — upload demo video and replace this link)_
+
 
 [Watch the YouTube demo](https://your-link-here.com)
 
