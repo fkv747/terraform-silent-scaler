@@ -2,11 +2,12 @@
 
 ![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=for-the-badge&logo=terraform)
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-232F3E?style=for-the-badge&logo=amazonaws)
-![AWS S3](https://img.shields.io/badge/AWS-S3-green)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-Storage-569A31?style=for-the-badge&logo=amazonaws)
 ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-Serverless-F58536?style=for-the-badge&logo=awslambda)
-![AWS DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-blue)
-![AWS SNS](https://img.shields.io/badge/AWS-SNS-pink)
-![Serverless Architecture](https://img.shields.io/badge/Architecture-Serverless-yellow)
+![AWS DynamoDB](https://img.shields.io/badge/AWS%20DynamoDB-NoSQL-4053D6?style=for-the-badge&logo=amazonaws)
+![AWS SNS](https://img.shields.io/badge/AWS%20SNS-Notifications-F09135?style=for-the-badge&logo=amazonaws)
+![Serverless Architecture](https://img.shields.io/badge/Architecture-Serverless-4B5563?style=for-the-badge)
+
 
 Silent Scaler is a fully serverless, infrastructure-as-code data pipeline built entirely with AWS and Terraform. This project automates file validation, storage, quarantine of invalid files, and real-time error notifications via SNS, demonstrating modular design, scalability, and operational resilience.
 
