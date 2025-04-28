@@ -1,0 +1,12 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash
+*.log
+*.backup
+.terraform.lock.hcl
+
+# Ignore personal notes or temp files
+*.tmp
+*.bak
